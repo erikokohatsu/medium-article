@@ -1,0 +1,68 @@
+body {
+  background-color: #F7F9FC;
+  font-family: 'Roboto', sans-serif;
+  color: #2D3A3A;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #474647;
+  font-size: 27px;
+  line-height: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.banner h1, .banner p {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 70%;
+  margin: 40px auto;
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.link-blue {
+background-color: #B5DFCA;
+color: black;
+}
+
+.link-blue:hover {
+background-image: linear-gradient(to bottom, #B5DFCA, #D0FFB7)
+}
